@@ -14,9 +14,7 @@
         echo "echec de la connexion" ; 
       }
     }
-    else {
-      echo "isset off" ; 
-    }
+  
 ?>
 <!DOCTYPE html>
 <html lang="fr">

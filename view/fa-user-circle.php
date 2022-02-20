@@ -18,17 +18,40 @@
     <input type="text" placeholder="mot de passe"  id="input_password" > </br/>
     <i class="fa fa-send" style="padding-right:5px"></i>
     <input type="submit" id="se_connecter" class="se_connecter" onclick="connexion()" title="connexion"  >
-
+ 
+    
+    <div class="demo_">
+        <h1>
+            Démo
+        </h1>
+ 
+    </div>
+ 
     <h2>
         Inscription
     </h2>
     <i class="fa fa-user-plus" id="fa-user-plus" onclick="header_menu_click(this)" title="inscription"></i>
     </div>
+ 
 </div>
     
     <style>
         #papirus{
  
+        }
+        .demo_{
+            background-color:white; 
+            transition:1s all ; 
+         
+            border:1px solid rgba(0,50,50,0.5) ;
+            width: 50%; 
+            margin:auto ; 
+        }
+        .demo_:hover{
+            transition:1s all ; 
+            cursor:pointer ; 
+            background-color:rgba(0,50,0,0.5) ; 
+            color:white ; 
         }
     #form_login{
         width:500px;
