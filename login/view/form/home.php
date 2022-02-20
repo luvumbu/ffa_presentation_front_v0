@@ -7,13 +7,13 @@
 <div class="margin_top_150"></div>
 
 <div id="header_0">
-     <div>
+     <div onclick="clubs()">
         Clubs 
     </div>    
-        <div>
+        <div onclick="athletes()">
             Athletes
         </div>
-        <div>
+        <div onclick="villes()">
         Villes
         </div>
         <div onclick="deconnexion()">
@@ -22,7 +22,7 @@
 </div>
 
 
-<div id="deconnexion"></div>
+<div id="home"></div>
 
 
 

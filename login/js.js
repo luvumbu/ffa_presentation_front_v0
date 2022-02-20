@@ -71,5 +71,19 @@ function tip_section_() {
 
 
 function deconnexion() {
-  Ajax("deconnexion","view/deconnexion.php");
+  
+  Ajax("home","view/deconnexion.php");
+}
+
+function clubs() {
+  Ajax("home","view/clubs.php");
+
+}
+function athletes() {
+  Ajax("home","view/athletes.php");
+
+}
+function villes() {
+  Ajax("home","view/villes.php");
+
 }
